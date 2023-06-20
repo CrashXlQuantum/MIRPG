@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    user-select: none;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(40px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.outer{
+    background: white;
+    border: 2px solid white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.inner{
+    margin: 10px;
+}
+
+.container-grad{
+    background: #FDFDFC;
+}
+
